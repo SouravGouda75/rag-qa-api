@@ -1,0 +1,19 @@
+A Brief History of the Internet
+
+The origins of the Internet trace back to the late 1960s with ARPANET, a project funded by the United States Department of Defense Advanced Research Projects Agency (DARPA). ARPANET's first message was sent on October 29, 1969, between computers at UCLA and Stanford Research Institute. The message was supposed to be "LOGIN" but the system crashed after transmitting just "LO".
+
+In 1971, Ray Tomlinson sent the first email over ARPANET and introduced the @ symbol to separate user names from computer names. By 1973, ARPANET had expanded to include nodes in England and Norway, making it the first international network.
+
+The Transmission Control Protocol and Internet Protocol (TCP/IP) were developed by Vint Cerf and Bob Kahn in the 1970s and formally adopted by ARPANET on January 1, 1983, a date often called the "birthday of the Internet". TCP/IP remains the foundational communication protocol of the Internet today.
+
+The Domain Name System (DNS) was introduced in 1984 by Paul Mockapetris to replace the increasingly unwieldy system of numeric IP addresses with human-readable domain names. The first registered domain name was symbolics.com on March 15, 1985.
+
+Tim Berners-Lee invented the World Wide Web in 1989 while working at CERN. He wrote the first web browser and web server software, and the first website went live on August 6, 1991. The web made the Internet accessible to non-technical users and triggered explosive growth.
+
+The Mosaic web browser, released in 1993 by the National Center for Supercomputing Applications (NCSA), was the first browser to display images inline with text. It popularized the web and led to the creation of Netscape Navigator in 1994.
+
+The dot-com boom of the late 1990s saw massive investment in Internet-based companies. Companies like Amazon (founded 1994), eBay (1995), and Google (1998) emerged during this period. The bubble burst in 2000-2001, but the surviving companies went on to reshape global commerce and information access.
+
+Web 2.0 emerged in the mid-2000s, characterized by user-generated content, social networking, and interactive web applications. Platforms like Facebook (2004), YouTube (2005), and Twitter (2006) defined this era. The shift from static web pages to dynamic, participatory platforms fundamentally changed how people communicate and share information.
+
+Mobile Internet usage surpassed desktop usage globally in 2016, driven by smartphone adoption. This shift led to mobile-first design principles and the development of progressive web applications. As of 2024, approximately 5.4 billion people worldwide have access to the Internet, representing about 67% of the global population.

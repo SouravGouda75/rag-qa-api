@@ -1,0 +1,95 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "category": "answerable",
+            "question": "How much paid annual leave do full-time employees get each year?",
+            "expected_behavior": "Should answer 24 days per calendar year",
+            "expected_sources": ["company_policy.txt"]
+        },
+        {
+            "id": 2,
+            "category": "answerable",
+            "question": "Who created the World Wide Web and what year was it launched?",
+            "expected_behavior": "Should answer Tim Berners-Lee in 1989",
+            "expected_sources": ["history_of_internet.txt"]
+        },
+        {
+            "id": 3,
+            "category": "answerable",
+            "question": "What's the main difference between supervised and unsupervised learning?",
+            "expected_behavior": "Should explain labeled vs unlabeled data distinction",
+            "expected_sources": ["machine_learning.md"]
+        },
+        {
+            "id": 4,
+            "category": "answerable",
+            "question": "How do list comprehensions work in Python and why would I use them?",
+            "expected_behavior": "Should describe concise way to create lists from iterables",
+            "expected_sources": ["python_basics.md"]
+        },
+        {
+            "id": 5,
+            "category": "answerable",
+            "question": "Can I work from home, and how many remote days am I allowed per week?",
+            "expected_behavior": "Should answer up to 3 days per week with manager approval",
+            "expected_sources": ["company_policy.txt"]
+        },
+        {
+            "id": 6,
+            "category": "answerable",
+            "question": "What was the very first domain name ever registered on the internet?",
+            "expected_behavior": "Should answer symbolics.com on March 15 1985",
+            "expected_sources": ["history_of_internet.txt"]
+        },
+        {
+            "id": 7,
+            "category": "answerable",
+            "question": "What dataset did the researchers build to train the model, and where did they get the data from?",
+            "expected_behavior": "Should answer WebText, consisting of millions of webpages scraped from outbound Reddit links with at least 3 karma",
+            "expected_sources": ["language_models_are_unsupervised_multitask_learners.pdf"]
+        },
+        {
+            "id": 8,
+            "category": "unanswerable",
+            "question": "What was Acme Corp's total revenue for 2024?",
+            "expected_behavior": "Should clearly state that the documents do not contain this information",
+            "expected_sources": []
+        },
+        {
+            "id": 9,
+            "category": "unanswerable",
+            "question": "Can you give me a Terraform script to deploy an EKS Kubernetes cluster?",
+            "expected_behavior": "Should clearly state that the documents do not contain this information",
+            "expected_sources": []
+        },
+        {
+            "id": 10,
+            "category": "unanswerable",
+            "question": "Who is the current CEO of Acme Corp?",
+            "expected_behavior": "Should clearly state that the documents do not contain this information",
+            "expected_sources": []
+        },
+        {
+            "id": 11,
+            "category": "multi_evidence",
+            "question": "Which deep learning architectures and paradigms are discussed for handling supervised learning tasks?",
+            "expected_behavior": "Should reference machine_learning.md mentioning neural networks and supervised learning",
+            "expected_sources": ["machine_learning.md"]
+        },
+        {
+            "id": 12,
+            "category": "multi_evidence",
+            "question": "Which Python data structures and features should I know before implementing machine learning models?",
+            "expected_behavior": "Should cite python_basics.md and machine_learning.md",
+            "expected_sources": ["python_basics.md", "machine_learning.md"]
+        },
+        {
+            "id": 13,
+            "category": "multi_evidence",
+            "question": "What were the biggest networking milestones between ARPANET in 1969 and the launch of TCP/IP?",
+            "expected_behavior": "Should mention ARPANET (1969), email with @ symbol (1971), and TCP/IP (1983)",
+            "expected_sources": ["history_of_internet.txt"]
+        }
+    ]
+}

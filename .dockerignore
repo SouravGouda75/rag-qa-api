@@ -1,0 +1,12 @@
+.venv
+venv
+chroma_data
+test_chroma_data
+uploaded_docs
+__pycache__
+*.pyc
+*.pyo
+.pytest_cache
+.env
+.git
+.gitignore
